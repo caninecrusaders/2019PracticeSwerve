@@ -26,7 +26,7 @@ import edu.wpi.first.wpilibj.Preferences;
 public class SwerveModule extends Subsystem implements PIDOutput {
   // Put methods for controlling this subsystem
   // here. Call these from Commands.
-  public static boolean enableAngle = false;
+  public static boolean enableAngle = true;
   public static final double encoderVolt = 0;
 
   private final int mModuleNumber;
