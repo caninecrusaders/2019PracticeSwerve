@@ -15,6 +15,8 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.robot.subsystems.SwerveDriveSubsystem;
 import frc.robot.subsystems.SwerveModule;
+import com.kauailabs.navx.frc.AHRS;
+
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -27,6 +29,7 @@ public class Robot extends TimedRobot {
   private static OI mOi;
   public static SwerveDriveSubsystem swerveDriveSubsystem;
   public static SwerveModule testSwerveModule;
+  public static AHRS ahrs;
   public static NetworkTableInstance tableInstance;
 
   Command m_autonomousCommand;
